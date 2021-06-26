@@ -17,7 +17,6 @@ body{
 
 #page-wrapper{
   position: relative;
-  width:100%;
   
 }
 
@@ -134,7 +133,7 @@ font-size: 1.1em;
 
 .contact-page{
   display: flex;
-  width:100%;
+
   justify-content: space-around;
   padding-top:100px;
   margin: auto;
@@ -279,6 +278,7 @@ font-size: 1.1em;
         right: 100px; 
         padding:20px;*/
         width: 40%;
+        margin-right:30px;
         /*margin-right:100px;*/
       }
 
@@ -292,6 +292,7 @@ font-size: 1.1em;
        
         }
       }
+   
       
       #survey-form{
         
@@ -300,7 +301,7 @@ font-size: 1.1em;
           border: 1px solid #ffffff;
           padding: 10px 30px;
           height: auto;
-          width:508px;
+          width:408px;
   
       }
       @media (max-width:985px){
