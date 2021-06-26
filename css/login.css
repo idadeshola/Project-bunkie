@@ -1,0 +1,174 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+  
+    height: 100%;
+    width: 100%;
+    }
+
+.wrapper{
+    position: relative;
+}
+/* @media screen and (max-width:730px) {
+    
+    .login h3{
+        font-size: 1em;
+        border:1px
+    }
+
+    .shape4{
+        right:0px;
+    }
+} */
+
+@media screen and (max-width:1160px) {
+    .shapes {
+        max-width:300px;
+    }
+    .shape4{
+        right:30px;
+    }
+    .shape3{
+        bottom:200px;
+    }
+    }
+@media  (max-width:760px) {
+    .shape4{
+        position:absolute;
+        top:0;
+        right:100px;
+    }
+    .login{
+        margin-top:200px
+    }
+}
+.shape1{
+    position: absolute;
+    top: -100px;
+    left: 0;
+    min-width: 100px;
+}
+.shape2{
+    position: absolute;
+    bottom: -155px;
+    right: 0;
+}
+.shape3{
+    position:absolute;
+    bottom:-155px;
+    left:0;
+    
+}
+.shape4{
+    position:absolute;
+    top:0px;
+    right:50px;
+}
+@media screen and (max-width:900px) {
+    .shape4{
+        right:10px;
+        top:-20px;
+        position:fixed;
+       
+        
+    }
+}
+
+.login{
+    width:50%;
+    margin:50px auto;
+    padding: 30px;
+}
+@media screen and (max-width:900px) {
+    .shapes {
+        max-width:200px;
+    }
+    .login{
+        
+        width:80%;
+        margin:100px auto;
+            
+            
+        }
+    }
+        
+
+.login h3{
+    font-size: 1.5em;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.login p{
+    font-size: 0.8em;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.details{
+    margin: auto;
+    width:80%;
+    
+}
+
+.form-control{
+    display: block;
+    margin-bottom:30px;
+    margin-top:10px;
+    width:100%;
+    background-color: #f3f3f3;
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+    padding:20px;
+}
+
+
+.submit-button{
+    background-color: #027A63;
+    color: #ffffff;
+    width: 100%;
+    padding:20px;
+    font-size: 1.5em;
+    border-radius: 5px;
+    border: none;
+    justify-content: right;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    
+    }
+.social-details{
+   display: flex;
+   justify-content: center;
+   align-content: middle;
+   margin-top: 30px;
+
+}
+.icon{
+    margin-right: 20px;
+}
+
+.lines p{
+font-size: 1em;
+font-weight: 400;
+}
+
+/* .lines{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 90%;
+}
+.line{
+    width:40%;
+    
+    
+} */
+
+
+
